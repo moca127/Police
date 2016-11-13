@@ -1,0 +1,9 @@
+name: Police
+main: kr.mocha.Police
+author: mocha
+version: 1.0-SNAPSHOT
+api: [1.0.0]
+  
+permissions :
+ policeManager :
+  default : OP
