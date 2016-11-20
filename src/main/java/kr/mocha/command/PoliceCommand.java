@@ -18,6 +18,7 @@ public class PoliceCommand extends Command{
 
     public PoliceCommand(){
         super("police", "경찰명령어", "/police <ban|unban|kick|say|tp>");
+        this.setPermission("police.cmd");
     }
 
     @Override
