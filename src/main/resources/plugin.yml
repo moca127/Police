@@ -7,3 +7,5 @@ api: [1.0.0]
 permissions :
  policeManager :
   default : OP
+ police.cmd :
+  default : OP
